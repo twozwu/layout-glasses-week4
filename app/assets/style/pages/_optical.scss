@@ -1,0 +1,65 @@
+header.optical {
+  a {
+    margin: 27px 57px;
+  }
+  li:hover {
+    border-bottom: 8px solid $primary;
+  }
+  img {
+    height: 304px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  @include md() {
+    .img-s {
+      object-position: 50% 80%;
+    }
+    a {
+      margin: 14px 15px;
+    }
+  }
+}
+
+.optical {
+  .model,
+  .price {
+    line-height: 1.5;
+    font-weight: bold;
+  }
+  .color-1 {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: #5f3e2d;
+  }
+  .color-2 {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background: #b75929;
+  }
+  .card {
+    margin-bottom: 104px;
+  }
+  .pagination {
+    margin-bottom: 160px;
+  }
+
+  @include md() {
+    .card {
+      margin-bottom: 72px;
+    }
+    .pagination {
+      margin-bottom: 96px;
+    }
+  }
+  @include sm() {
+    .card {
+      margin-bottom: 32px;
+    }
+    .pagination {
+      margin-bottom: 56px;
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.navbar {
+  .navbar-brand {
+    background: url("https://github.com/hexschool/webLayoutTraining1st/blob/master/week3/logo.png?raw=true")
+      no-repeat;
+    display: block;
+    width: 80px;
+    height: 49px;
+    text-indent: 101%;
+    overflow: hidden;
+  }
+  .nav-link {
+    color: #fff;
+  }
+  li {
+    min-width: 150px;
+    @include md() {
+      min-width: 110px;
+    }
+    @include sm() {
+      border-top: 1px solid #fff;
+      border-bottom: 1px solid #fff;
+      border-right: 1px solid #fff;
+    }
+  }
+}
+
+.footer {
+  padding: 32px 0 39px;
+  .nav-link {
+    color: #fff;
+  }
+  .material-icons-outlined {
+    font-size: 48px;
+  }
+
+  @include md() {
+    img {
+      width: 24px;
+      height: 24px;
+    }
+    .material-icons-outlined {
+      font-size: 24px;
+      margin-right: 8px;
+    }
+  }
+
+  @include sm() {
+    .data {
+      a:last-child {
+        margin-top: 6px;
+      }
+    }
+    .privacy {
+      display: block;
+    }
+  }
+}
