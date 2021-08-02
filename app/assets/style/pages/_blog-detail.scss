@@ -1,0 +1,68 @@
+.blog-detail {
+  .section-nav {
+    background: $blog;
+  }
+  .nav-link {
+    padding: 12px 0;
+    margin-right: 48px;
+    @include sm() {
+      margin-right: 0px;
+    }
+  }
+  .search {
+    line-height: 43px;
+  }
+
+  .date {
+    line-height: 30px;
+  }
+  figcaption {
+    line-height: 30px;
+  }
+  .tags {
+    margin-bottom: 56px;
+  }
+  .tags .material-icons-outlined {
+    width: 48px;
+    height: 48px;
+    @include md() {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  .share {
+    margin-top: 49px;
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+    @include md() {
+      margin-top: 28px;
+      padding-bottom: 20px;
+      margin-bottom: 16px;
+    }
+    @include sm() {
+      margin-top: 20px;
+      padding-bottom: 16px;
+      margin-bottom: 10px;
+    }
+    img {
+      @include md() {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  }
+  .share-text {
+    margin-right: 20px;
+  }
+  .page {
+    font-size: 19px;
+    margin-bottom: 160px;
+    @include md() {
+      font-size: 16px;
+      margin-bottom: 96px;
+    }
+    @include sm() {
+      margin-bottom: 30px;
+    }
+  }
+}
