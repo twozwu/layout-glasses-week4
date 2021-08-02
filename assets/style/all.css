@@ -9381,12 +9381,12 @@ body {
       .header h2, .header .h2 {
         font-size: 2rem; } }
 
-.title {
+.index .title {
   font-size: 3rem;
   margin-top: 60px;
   padding-bottom: 1px; }
   @media (max-width: 768px) {
-    .title {
+    .index .title {
       font-size: 2rem;
       line-height: 3rem;
       margin-top: 40px; } }
@@ -9647,7 +9647,7 @@ header.optical img {
   .qa p {
     margin-left: 0; } }
 
-.blog nav {
+.blog .section-nav {
   background: #650300; }
 
 .blog .nav-link {
@@ -9713,5 +9713,68 @@ header.optical img {
   .blog .pagination {
     margin-top: 40px;
     margin-bottom: 56px; } }
+
+.blog-detail .section-nav {
+  background: #650300; }
+
+.blog-detail .nav-link {
+  padding: 12px 0;
+  margin-right: 48px; }
+  @media (max-width: 576px) {
+    .blog-detail .nav-link {
+      margin-right: 0px; } }
+
+.blog-detail .search {
+  line-height: 43px; }
+
+.blog-detail .date {
+  line-height: 30px; }
+
+.blog-detail figcaption {
+  line-height: 30px; }
+
+.blog-detail .tags {
+  margin-bottom: 56px; }
+
+.blog-detail .tags .material-icons-outlined {
+  width: 48px;
+  height: 48px; }
+  @media (max-width: 768px) {
+    .blog-detail .tags .material-icons-outlined {
+      width: 24px;
+      height: 24px; } }
+
+.blog-detail .share {
+  margin-top: 49px;
+  padding-bottom: 20px;
+  margin-bottom: 24px; }
+  @media (max-width: 768px) {
+    .blog-detail .share {
+      margin-top: 28px;
+      padding-bottom: 20px;
+      margin-bottom: 16px; } }
+  @media (max-width: 576px) {
+    .blog-detail .share {
+      margin-top: 20px;
+      padding-bottom: 16px;
+      margin-bottom: 10px; } }
+  @media (max-width: 768px) {
+    .blog-detail .share img {
+      width: 20px;
+      height: 20px; } }
+
+.blog-detail .share-text {
+  margin-right: 20px; }
+
+.blog-detail .page {
+  font-size: 19px;
+  margin-bottom: 160px; }
+  @media (max-width: 768px) {
+    .blog-detail .page {
+      font-size: 16px;
+      margin-bottom: 96px; } }
+  @media (max-width: 576px) {
+    .blog-detail .page {
+      margin-bottom: 30px; } }
 
 /*# sourceMappingURL=all.css.map */
